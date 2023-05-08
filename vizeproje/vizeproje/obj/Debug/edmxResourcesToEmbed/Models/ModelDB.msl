@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB01ModelStoreContainer" CdmEntityContainer="DB01Entities">
+    <EntitySetMapping Name="Ogrenci">
+      <EntityTypeMapping TypeName="DB01Model.Ogrenci">
+        <MappingFragment StoreEntitySet="Ogrenci">
+          <ScalarProperty Name="ogrId" ColumnName="ogrId" />
+          <ScalarProperty Name="ogrNo" ColumnName="ogrNo" />
+          <ScalarProperty Name="ogrAdsoyad" ColumnName="ogrAdsoyad" />
+          <ScalarProperty Name="ogrMail" ColumnName="ogrMail" />
+          <ScalarProperty Name="ogrYas" ColumnName="ogrYas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
